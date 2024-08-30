@@ -1047,13 +1047,6 @@ odm/firmware/fastchg/smart_chg_config_table.txt
 vendor/etc/ltm_config_AA254_p_3_A0004_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_AA254_p_3_A0004_dsc_cmd_mode_panel.xml
 
-# ESE
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.1.so
-
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/bin/init.oplus.fingerprints.sh
