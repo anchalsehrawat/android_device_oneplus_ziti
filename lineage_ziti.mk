@@ -40,7 +40,7 @@ RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 TARGET_ENABLE_BLUR := true
 
 # whether to ship aperture camera, default is false
-PRODUCT_NO_CAMERA := true
+PRODUCT_NO_CAMERA := false
 
 # Wether to ship lawnchair launcher
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
@@ -52,6 +52,6 @@ TARGET_CORE_GMS := false
 #Extra add-ons for GMS build, check RisingOS manifest for the list
 TARGET_CORE_GMS_EXTRAS := false
 # Wether to ship pixel launcher and set it as default launcher
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 BUILD_FINGERPRINT := OnePlus/CPH2569/OP5953L1:14/UKQ1.230924.001/T.R4T2.1695bc3-1-2:user/release-keys
