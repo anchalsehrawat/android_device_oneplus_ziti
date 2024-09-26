@@ -39,7 +39,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 RISING_BATTERY := "5000 mAh"
 
 #AOSP is the default package type, WITH_GMS will override the package type to PIXEL
-RISING_PACKAGE_TYPE := "VANILLA_AOSP"
+RISING_PACKAGE_TYPE := "PIXEL"
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
