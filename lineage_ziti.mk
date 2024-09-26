@@ -32,7 +32,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 782G" \
     RISING_MAINTAINER="Loid"
 
+
 #RisingOS changes
+
+#Battery Capacity
+RISING_BATTERY := 5000 mAh
+
 #AOSP is the default package type, WITH_GMS will override the package type to PIXEL
 RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 
