@@ -57,6 +57,6 @@ TARGET_CORE_GMS := false
 #Extra add-ons for GMS build, check RisingOS manifest for the list
 TARGET_CORE_GMS_EXTRAS := false
 # Wether to ship pixel launcher and set it as default launcher
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 BUILD_FINGERPRINT := OnePlus/CPH2569/OP5953L1:14/UKQ1.230924.001/T.R4T2.1695bc3-1-2:user/release-keys
