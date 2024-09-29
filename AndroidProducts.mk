@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ziti.mk
+    $(LOCAL_DIR)/aosp_ziti.mk
