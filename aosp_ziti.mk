@@ -14,6 +14,15 @@ $(call inherit-product, device/oneplus/ziti/device.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Environment Flags
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
+#Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+
 PRODUCT_NAME := aosp_ziti
 PRODUCT_DEVICE := ziti
 PRODUCT_MANUFACTURER := OnePlus
