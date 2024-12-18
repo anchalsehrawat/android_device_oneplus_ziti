@@ -28,4 +28,34 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=OP5953L1 \
     DeviceProduct=CPH2569 \
     SystemDevice=OP5953L1 \
-    SystemName=CPH2569
+    SystemName=CPH2569 \
+    RisingChipset="Snapdragon 782G" \
+    RisingMaintainer="Loid"
+
+#Rising Bringup
+
+#Battery Capacity
+RISING_BATTERY := "5000 mAh"
+
+#RISING_PACKAGE_TYPE := "VANILLA_AOSP"
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+# whether to ship aperture camera, default is false
+PRODUCT_NO_CAMERA := true
+
+# Wether to ship lawnchair launcher
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+#UDFPS
+TARGET_HAS_UDFPS := true
+
+#GMS Flags
+#WITH_GMS := true
+# ships core GMS components that are needed to run GMS environment
+#TARGET_CORE_GMS := true
+#Extra add-ons for GMS build, check RisingOS manifest for the list
+#TARGET_CORE_GMS_EXTRAS := false
+# Wether to ship pixel launcher and set it as default launcher
+#TARGET_DEFAULT_PIXEL_LAUNCHER := true
