@@ -13,3 +13,6 @@ persist.radio.multisim.config=dsds
 
 # USB
 vendor.usb.product_string=OnePlus Nord CE3 5G
+
+#Display
+debug.graphics.game_default_frame_rate.disabled=true
