@@ -29,4 +29,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=OP5953L1 \
     DeviceProduct=CPH2569 \
     SystemDevice=OP5953L1 \
-    SystemName=CPH2569
+    SystemName=CPH2569 \
+    RisingChipset="Snapdragon 782G" \
+    RisingMaintainer="Loid"
+
+RISING_MAINTAINER := Loid
