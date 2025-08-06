@@ -66,7 +66,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    YAAPSettingsOverlay
 
 # Sensors
 PRODUCT_PACKAGES += \
