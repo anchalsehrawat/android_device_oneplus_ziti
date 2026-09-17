@@ -138,8 +138,8 @@ odm/etc/camera/config/imx355
 odm/etc/camera/config/imx890
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
-odm/etc/camera/config/oplus_camera_config
-odm/etc/camera/config/oplus_camera_preview_decision_config.json
+odm/etc/camera/config/oplus_camera_config|e2dbc3c07563f8558170266176deb3baa3bbaa79
+odm/etc/camera/config/oplus_camera_preview_decision_config.json|6213eafbb50672421c490a406ab05fd5eddffd19
 odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/s5k3p9
 odm/etc/camera/config/sr_params.xml
