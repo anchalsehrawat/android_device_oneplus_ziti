@@ -1014,6 +1014,19 @@ odm/firmware/fastchg/smart_chg_config_table.txt
 vendor/etc/ltm_config_AA254_p_3_A0004_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_AA254_p_3_A0004_dsc_cmd_mode_panel.xml
 
+# Face unlock
+my_product/non_overlay/priv-app/OPFaceUnlock/OPFaceUnlock.apk:vendor/etc/faceunlock/resources.zip|c8942520b18bb8a5dde2125ad595b423c93e6d4d
+odm/lib64/libstfaceunlockocl.so:vendor/lib64/libstfaceunlockocl.so
+odm/vendor/firmware_mnt/faceapp.b00:vendor/etc/faceunlock/faceapp.b00|8e1f329bf2e50df3e105a53b1a9ef48b0f66b88f
+odm/vendor/firmware_mnt/faceapp.b01:vendor/etc/faceunlock/faceapp.b01|4948969494b2f24efb3495ade39ab5aac8c9188f
+odm/vendor/firmware_mnt/faceapp.b02:vendor/etc/faceunlock/faceapp.b02|51ad62e309996bfa4f18c2f4fbc917c3830418b7
+odm/vendor/firmware_mnt/faceapp.b03:vendor/etc/faceunlock/faceapp.b03|864bcfef8d1a4dd7f791dd5e5c6d203382bf57a4
+odm/vendor/firmware_mnt/faceapp.b04:vendor/etc/faceunlock/faceapp.b04|c47bc5998ee51c88a14454a525bfeab3d6d1f175
+odm/vendor/firmware_mnt/faceapp.b05:vendor/etc/faceunlock/faceapp.b05|2a7f5426688ff71707c90a0e1d6e73cd8cb41ea5
+odm/vendor/firmware_mnt/faceapp.b06:vendor/etc/faceunlock/faceapp.b06|6b21201920b61bad6ec03ed253064e078798b592
+odm/vendor/firmware_mnt/faceapp.b07:vendor/etc/faceunlock/faceapp.b07|983d0d28504f76a70334e91b24cda8df996ae754
+odm/vendor/firmware_mnt/faceapp.mdt:vendor/etc/faceunlock/faceapp.mdt|f90664e8d9427af6aaf40dbc86a7c1bda7c481da
+
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/bin/init.oplus.fingerprints.sh
