@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/ziti/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ziti
+PRODUCT_NAME := infinity_ziti
 PRODUCT_DEVICE := ziti
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -30,3 +30,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=CPH2569 \
     SystemDevice=OP5953L1 \
     SystemName=CPH2569
+
+#Infinity
+#UDFPS
+TARGET_HAS_UDFPS := true
+#Aperture Cam
+TARGET_BUILD_APERTURE_CAMERA := false
+#Flags
+INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_MAINTAINER := "LOID"
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
